@@ -1,0 +1,291 @@
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+ 
+/*product list*/
+
+ul.products
+{
+  display: flex; 
+  align-items: flex-end;
+	flex-wrap:wrap;	
+}
+
+.page-template-template-homepage-php .site-main .columns-4 ul.products li.product
+{
+	width: 24%;
+	margin-right: 1%;
+}
+
+.page-template-template-homepage-php .site-main .columns-3 ul.products li.product
+{
+	width: 32%;
+	margin-right: 1%;
+}
+
+ul.products .onsale {
+    float: right;
+}
+
+/*header menu*/ 
+
+button.menu-toggle
+{
+	padding: 5px 10px 5px 0px;
+}
+
+button.menu-toggle span
+{
+	color: transparent;
+}
+
+.site-search .widget_product_search form input[type=search]
+{
+	border-radius: 20px; 
+}
+
+/*pop list item*/
+
+.pum-theme-334 .pum-content, .pum-theme-default-theme .pum-content
+{
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+/*pop title*/
+
+.pum-theme-334 .pum-title, .pum-theme-default-theme .pum-title
+{
+	line-height: 50px;
+}
+
+/* pop close button*/
+
+.pum-theme-334 .pum-content + .pum-close, 
+.pum-theme-default-theme .pum-content + .pum-close
+{
+	background-color: transparent;
+	color: transparent;
+	text-shadow: none;
+}
+
+.pum-theme-334 .pum-content + .pum-close::after, 
+.pum-theme-default-theme .pum-content + .pum-close::after
+{
+	content:"\e5cd";
+	font-family: 'Material Icons';
+	color: black;
+	font-size: 1.5rem;
+}
+
+
+/*logo starts*/
+
+.custom-logo-link img
+{
+	display: none;
+}
+
+.custom-logo-link
+{
+	width: 200px;
+	height: 70px;	
+	background-image: url("http://bestbuyshopping.in/wp-content/uploads/2018/05/bestbuyshopping.in-branding.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px auto;
+	 
+}
+
+
+/*end of logog*/
+
+
+
+.site-header .col-full .col-full
+{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.site-branding{order:1}
+
+.site-search{order:2}
+
+.storefront-primary-navigation{order:3}
+
+#menu-top-menu li a
+{
+	padding: 5px 10px !important;	
+}
+
+.site-header
+{
+	padding: 15px 0 0;
+}
+
+.site-header .site-branding
+{
+	margin: 0px 0px 15px;
+	width: auto !important;
+}
+
+.site-search
+{
+	width: calc(100% - 250px) !important; 
+	margin-left: auto;
+	margin-top: 10px;
+}
+
+.cart-contents
+{
+	padding: 0px !important;
+}
+
+.storefront-primary-navigation
+{
+	width: 100% !important;
+	margin: 0px 0px 0px auto;
+	padding: 0px;
+}
+
+/* register pop up bg change*/
+
+.pum-theme-334, 
+.pum-theme-default-theme 
+{
+    background-color: #fff;
+}
+	
+.pum-theme-334 .pum-container, 
+.pum-theme-default-theme .pum-container
+{
+	background-color: #f5f5f5;
+}
+
+html.pum-open.pum-open-overlay.pum-open-scrollable .pum-overlay.pum-active
+{
+	background-color: #000000db;
+}
+
+/* popUp layout grid */
+
+.woocommerce-MyAccount-navigation{
+	width: auto !important;
+} 
+
+body .woo-login-popup-sc-modal .woo-login-popup-sc-bg{
+	object-fit: cover;
+	background-size: auto !important;
+}
+
+.pum-content.popmake-content .woocommerce ul.products
+{
+		display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pum-content.popmake-content .woocommerce ul.products li.product {
+    width: 30%;
+		margin-right: 1%;
+}
+
+ul.products li.product.last {
+    margin-right: 1% !important;
+}
+
+/*slider full width*/
+.crellyslider>.cs-slides>.cs-slide>a>img, .crellyslider>.cs-slides>.cs-slide>img
+{
+	max-width: none!important;
+	width: 100% !important;
+	height: auto !important;
+	left: 0px !important;
+}
+
+a:focus, .button:focus, .button.alt:focus, button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, input:focus, textarea:focus {
+	outline: 0px solid #96588a !important;
+}
+
+/*media starts*/
+
+@media screen and (max-width: 767px){
+
+nav#site-navigation {
+    width: 100%;
+}
+
+.page-template-template-homepage-php .site-main .columns-4 ul.products li.product
+{
+	width: 49%;
+}
+	
+.page-template-template-homepage-php .site-main .columns-3 ul.products li.product
+{
+	width: 49%;	
+}
+	
+.pum-content.popmake-content .woocommerce ul.products li.product {
+    width: 49%;
+}	
+	
+.site-header .site-branding
+{
+	margin: 0px;	
+}
+	
+.menu-toggle
+{
+	margin-top: -50px;	
+}
+	
+.site-search
+{
+	width: 100% !important;
+	margin: 0px !important;
+}	
+	
+.storefront-primary-navigation
+{
+	margin-top: 0px;
+}
+
+.site-branding
+{
+	width: 250px;
+}	
+}/*media max 767px*/
+
+@media screen and (max-width: 500px)
+{ 
+
+.page-template-template-homepage-php .site-main .columns-4 ul.products li.product
+{
+	width: 100%;
+	margin-right:0px;
+}
+	
+.page-template-template-homepage-php .site-main .columns-3 ul.products li.product
+{
+	width: 100%;
+	margin-right:0px;
+}	
+	
+.pum-content.popmake-content .woocommerce ul.products li.product {
+    width: 100%;
+		margin-right: 0px;
+}
+
+.custom-logo-link
+{	
+	width: 170px;
+	/*background-image: url("http://bestbuyshopping.in/wp-content/uploads/2018/03/Bestbuyshopping.png");*/
+	background-size: 170px auto;
+	background-position: left 0px top 15px;
+	
+}
+}/*end of media 500px*/	
+
